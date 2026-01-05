@@ -34,9 +34,10 @@ This project adopts a **Kernel Style** workflow using `mg`, the lightweight edit
 
 | Option                         | Description |
 | :---                           | :--- |
-| **`set-default-mode fill`**    | Enables word wrapping at column 72. Essential for clean Git commit messages and `README` editing. |
-| **`set-default-mode indent`**  | Preserves indentation level on new lines. Critical for writing structured code (Go, C, Python) without manual tabbing. |
-| **`set-tab-width 8`**          | Enforces **Kernel Style** tabs. Ensures code honesty: if indentation looks too deep, the code is too complex. |
+| **`set-default-mode fill`** | Enables word wrapping at column 72. Essential for clean Git commit messages and `README` editing. |
+| **`set-default-mode indent`** | Preserves indentation level on new lines. Critical for writing structured code (Go, C, Python) without manual tabbing. |
+| **`set-tab-width 8`** | Enforces **Kernel Style** tabs. Ensures code honesty: if indentation looks too deep, the code is too complex. |
+| **`set-c-tab-width 8`** | Aligns logical indentation in `c-mode` with visual tab width. Essential for pure tab indentation (1 level = 1 tab) without spaces. |
 | **`auto-execute *.go c-mode`** | Forces `mg` to treat Go files as C. This enables smart indentation for braces `{ }` since `mg` lacks native Go support. |
 | **`backup-to-home-directory`** | Saves backup files (`file~`) to `~/.mg.d/` or `$HOME` instead of cluttering the project root. |
 
