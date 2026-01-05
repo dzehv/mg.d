@@ -6,7 +6,6 @@ set-default-mode indent
 
 ;; global style settings
 set-tab-width 8
-set-c-tab-width 8
 set-fill-column 72
 
 ;; programming options
