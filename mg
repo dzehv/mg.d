@@ -18,6 +18,6 @@ auto-execute *.go c-mode
 backup-to-home-directory ;; ~/.mg.d
 
 ;; bindings
-global-set-key "\^x\^f" find-file
-global-set-key "\M-g" goto-line
-global-set-key "\M-%" query-replace
+;; global-set-key "\^x\^f" find-file
+;; global-set-key "\M-g" goto-line
+;; global-set-key "\M-%" query-replace
