@@ -34,12 +34,11 @@ This project adopts a **Kernel Style** workflow using `mg`, the lightweight edit
 
 | Option                         | Description |
 | :---                           | :--- |
-| **`set-default-mode fill`** | Enables word wrapping at column 72. Essential for clean Git commit messages and `README` editing. |
-| **`set-default-mode indent`** | Preserves indentation level on new lines. Critical for writing structured code (Go, C, Python) without manual tabbing. |
-| **`set-tab-width 8`** | Enforces **Kernel Style** tabs. Ensures code honesty: if indentation looks too deep, the code is too complex. |
-| **`set-c-tab-width 8`** | Aligns logical indentation in `c-mode` with visual tab width. Essential for pure tab indentation (1 level = 1 tab) without spaces. |
-| **`auto-execute *.go c-mode`** | Forces `mg` to treat Go files as C. This enables smart indentation for braces `{ }` since `mg` lacks native Go support. |
-| **`backup-to-home-directory`** | Saves backup files (`file~`) to `~/.mg.d/` or `$HOME` instead of cluttering the project root. |
+| **`set-default-mode fill`** | [cite_start]Enables word wrapping at column 72[cite: 1]. Essential for clean Git commit messages and `README` editing. |
+| **`set-default-mode indent`** | [cite_start]Preserves indentation level on new lines[cite: 1]. Keeps the cursor aligned with the previous line. |
+| **`set-tab-width 8`** | [cite_start]Enforces **Kernel Style** tabs (8 chars)[cite: 1]. Ensures code honesty: if indentation looks too deep, the code is too complex. |
+| **`auto-execute *.go c-mode`** | [cite_start]Forces `mg` to treat Go files as C. Enables structural matching for braces `{ }` and C-style logic. |
+| **`backup-to-home-directory`** | [cite_start]Saves backup files (`file~`) to `~/.mg.d/` or `$HOME` instead of cluttering the project root[cite: 3]. |
 
 ### Keybindings
 
