@@ -18,7 +18,13 @@ quick_reference.txt is a copy of original MicroEMACS reference, just in case.
 
 [MicroEMACS Quick Reference](https://www.stsci.edu/~strolger/docs/emacs_guide.html)
 
+## Terminal hacks
+
+Mac OS Meta usage trick:
+
+``` bash
 Use ESC-x as M-x
+```
 
 ## Configuration notes
 
